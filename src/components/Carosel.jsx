@@ -42,15 +42,15 @@ function Carosel() {
       aria-label="Slide 3"
     />
   </div>
-  <div className="carousel-inner xl:h-[100vh] h-[60vh] relative">
+  <div className="carousel-inner xl:h-[100vh]  h-[60vh] relative">
     <div className="carousel-item active">
-      <img src={space1} className="d-block w-100 xl:h-100 h-[80vh] -translate-y-2" alt="..." />
+      <img src={space1} className="d-block w-100 h-[60vh] xl:h-[100vh] -translate-y-2" alt="..." />
     </div>
     <div className="carousel-item">
-      <img src={space2} className="d-block w-100 xl:h-100 h-[80vh] -translate-y-2" alt="..." />
+      <img src={space2} className="d-block w-100  h-[80vh] xl:h-[100vh] -translate-y-2" alt="..." />
     </div>
     <div className="carousel-item">
-      <img src={space3} className="d-block w-100 xl:h-100 h-[80vh] -translate-y-2" alt="..." />
+      <img src={space3} className="d-block w-100  h-[80vh] xl:h-[100vh] -translate-y-2" alt="..." />
     </div>
   </div>
   <button
@@ -71,10 +71,10 @@ function Carosel() {
     <span className="carousel-control-next-icon" aria-hidden="true" />
     <span className="visually-hidden">Next</span>
   </button>
-  <div className='bg-[#3b3b3b65] absolute bottom-0 p-4 w-screen space-y-2' data-aos="fade-right" data-aos-delay="0">
+  <div className='bg-[#3b3b3b5a] absolute bottom-0 xl:p-4 p-2 w-screen space-y-2' data-aos="fade-right" data-aos-delay="0">
     <div className='text-center text-white xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl font-bold'>Explore the Space</div>
     <div className="text-center text-white italic xl:text-lg text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita,Lorem ipsum dolor sit.</div>
-    <center><button className='bg-black rounded-md text-white p-2 font-bold'>Explore</button></center>
+    <center><button className='bg-black rounded-md text-white xl:px-2 px-2 py-1 xl:py-2 font-bold'>Explore</button></center>
   </div>
 </div>
  
