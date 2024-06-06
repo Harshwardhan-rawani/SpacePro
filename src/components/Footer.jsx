@@ -5,20 +5,20 @@ import { FaPhoneAlt } from "react-icons/fa";
 function Footer() {
   return (
    <>
-   <div className='bg-[#1e2565] p-4'>
+   <div className='bg-[#1e2565] p-4 flex xl:flex-row flex-col xl:justify-around xl:space-y-0 space-y-7'>
     <div>
-    <h1 className='text-lg font-bold text-white'>Be Ready To Grow</h1>
+    <h1 className='lg:text-2xl text-xl  font-bold text-white'>Be Ready To Grow</h1>
     <p className='mt-2 text-white'>Get exclusive <span className='font-bold'>best update</span> straight to your inbox</p>
     <div className='mt-3'>
       <input type="text"  className='xl:w-50 h-12  sm:w-64 p-2' placeholder='email@gmail.com...' />
-      <button className='bg-black text-white h-12 px-4'>Ok</button>
+      <button className='bg-black text-white h-12 px-4 font-bold'>Ok</button>
     </div>
     </div>
     <div>
-    <table className='lg:w-1/4 wd-3/4'>
+    <table className='xl:w-[25em] w-screen'>
         <tr>
-            <th className='text-start w-1/3 text-white'>Important Links</th>
-            <th className='text-start w-1/3 text-white'>Links</th>
+            <th className='text-start w-1/2 text-white lg:text-xl text-lg'>Important Links</th>
+            <th className='text-start w-1/2 text-white lg:text-xl text-lg'>Links</th>
         </tr>
         <tr>
             <td className='text-white'>Home</td>
@@ -38,7 +38,7 @@ function Footer() {
         </tr>
     </table>
     </div>
-    <div>   <h1 className=' text-white font-bold text-lg'>Contact us</h1>
+    <div>   <h1 className=' text-white font-bold xl:text-xl text-lg'>Contact us</h1>
 
 <div className=' text-white mt-2'>
  <div className=' text-white flex'>
