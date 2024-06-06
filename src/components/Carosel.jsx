@@ -4,7 +4,7 @@ import space2 from "../assets/space2.jpg";
 import space3 from "../assets/space3.jpg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import 'flowbite';
 function Carosel() {
     useEffect(() => {
         AOS.init({
