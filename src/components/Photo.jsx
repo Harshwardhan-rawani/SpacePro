@@ -15,7 +15,7 @@ function Photo() {
    <>
    <br />
    <div className='px-10'>
-    <div className='lg:text-2xl md:text-xl sm:text-lg overline text-white' data-aos="fade-right" data-aos-delay="0">Our Missions</div>
+    <div className='lg:text-3xl md:text-2xl sm:text-xl text-lg  overline text-white ' data-aos="fade-right" data-aos-delay="0">Our Missions</div>
 
     <div className='flex lg:flex-row flex-col lg:justify-between lg:space-x-5  w-full'>
         <div className='lg:w-1/3 w-full my-6 shadow-lg rounded-md px-4 py-2 hover:bg-gray-900 border-b-2 border-r-2 ' data-aos="zoom-in" data-aos-delay="0">
