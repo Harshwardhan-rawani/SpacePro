@@ -5,7 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 function Footer() {
   return (
    <>
-   <div className='bg-[#1e2565] p-4 flex xl:flex-row lg:flex-col flex-col xl:justify-around xl:space-y-0 space-y-6'>
+   <div className='bg-[#1e2565] p-4'>
     <div>
     <h1 className='text-lg font-bold text-white'>Be Ready To Grow</h1>
     <p className='mt-2 text-white'>Get exclusive <span className='font-bold'>best update</span> straight to your inbox</p>
@@ -15,10 +15,10 @@ function Footer() {
     </div>
     </div>
     <div>
-    <table className='lg:w-96 w-72'>
+    <table className='lg:w-1/4 wd-3/4'>
         <tr>
-            <th className='text-start w-1/2 text-white'>Important Links</th>
-            <th className='text-start w-1/2 text-white'>Links</th>
+            <th className='text-start w-1/3 text-white'>Important Links</th>
+            <th className='text-start w-1/3 text-white'>Links</th>
         </tr>
         <tr>
             <td className='text-white'>Home</td>
