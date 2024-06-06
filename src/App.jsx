@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-
+import 'flowbite';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Layout from './components/Layout';
