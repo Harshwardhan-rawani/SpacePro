@@ -1,0 +1,9 @@
+.animate{
+    
+    animation:card 1s infinite;
+    animation-direction: alternate;
+}
+@keyframes card {
+ from{transform: scale(1);}
+ to{transform: scale(1.2);}
+}
