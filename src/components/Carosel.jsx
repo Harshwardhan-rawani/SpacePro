@@ -44,13 +44,13 @@ function Carosel() {
   </div>
   <div className="carousel-inner xl:h-[100vh] h-[80vh] relative">
     <div className="carousel-item active">
-      <img src={space1} className="d-block w-100 h-full -translate-y-2" alt="..." />
+      <img src={space1} className="d-block w-100 xl:h-100 h-[80vh] -translate-y-2" alt="..." />
     </div>
     <div className="carousel-item">
-      <img src={space2} className="d-block w-100 h-full -translate-y-2" alt="..." />
+      <img src={space2} className="d-block w-100 xl:h-100 h-[80vh] -translate-y-2" alt="..." />
     </div>
     <div className="carousel-item">
-      <img src={space3} className="d-block w-100 h-full -translate-y-2" alt="..." />
+      <img src={space3} className="d-block w-100 xl:h-100 h-[80vh] -translate-y-2" alt="..." />
     </div>
   </div>
   <button
