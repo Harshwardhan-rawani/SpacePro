@@ -7,7 +7,7 @@ function  Top() {
 
   const handleScroll = () => {
     const offset = window.scrollY;
-    if (offset > 520) {
+    if (offset > 300) {
       setScrolled(true);
     } else {
       setScrolled(false);
