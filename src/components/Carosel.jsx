@@ -73,7 +73,7 @@ function Carosel() {
   </button>
   <div className='bg-[#3b3b3b65] absolute bottom-0 p-4 w-screen space-y-2' data-aos="fade-right" data-aos-delay="0">
     <div className='text-center text-white xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl font-bold'>Explore the Space</div>
-    <div className="text-center text-white italic xl:block lg:block hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, laudantium necessitatibus. Quisquam impedit iure iusto.</div>
+    <div className="text-center text-white italic xl:text-lg text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita,Lorem ipsum dolor sit.</div>
     <center><button className='bg-black rounded-md text-white p-2 font-bold'>Explore</button></center>
   </div>
 </div>
