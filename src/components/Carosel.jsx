@@ -42,7 +42,7 @@ function Carosel() {
       aria-label="Slide 3"
     />
   </div>
-  <div className="carousel-inner xl:h-[100vh] h-[80vh] relative">
+  <div className="carousel-inner xl:h-[100vh] h-[60vh] relative">
     <div className="carousel-item active">
       <img src={space1} className="d-block w-100 xl:h-100 h-[80vh] -translate-y-2" alt="..." />
     </div>
