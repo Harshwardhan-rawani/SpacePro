@@ -5,53 +5,56 @@ import { FaPhoneAlt } from "react-icons/fa";
 function Footer() {
   return (
    <>
-   <div className='bg-gray-200 pl-10 pt-10'>
-    <h1 className='text-lg font-bold'>Be Ready To Grow</h1>
-    <p className='mt-2'>Get exclusive <span className='font-bold'>best update</span> straight to your inbox</p>
+   <div className='bg-[#1e2565] p-4 flex xl:flex-row lg:flex-col flex-col xl:justify-around xl:space-y-0 space-y-6'>
+    <div>
+    <h1 className='text-lg font-bold text-white'>Be Ready To Grow</h1>
+    <p className='mt-2 text-white'>Get exclusive <span className='font-bold'>best update</span> straight to your inbox</p>
     <div className='mt-3'>
-      <input type="text"  className='xl:w-72 h-12 w-50 sm:w-64' placeholder='email@gmail.com...' />
+      <input type="text"  className='xl:w-50 h-12  sm:w-64 p-2' placeholder='email@gmail.com...' />
       <button className='bg-black text-white h-12 px-4'>Ok</button>
     </div>
-    <br />
-    <table className='lg:w-1/4 wd-3/4'>
+    </div>
+    <div>
+    <table className='lg:w-96 w-72'>
         <tr>
-            <th className='text-start w-1/3'>Important Links</th>
-            <th className='text-start w-1/3'>Links</th>
+            <th className='text-start w-1/2 text-white'>Important Links</th>
+            <th className='text-start w-1/2 text-white'>Links</th>
         </tr>
         <tr>
-            <td>Home</td>
-            <td>Home</td>
+            <td className='text-white'>Home</td>
+            <td className='text-white'>Home</td>
         </tr>
         <tr>
-            <td>About</td>
-            <td>About</td>
+            <td className='text-white'>About</td>
+            <td className='text-white'>About</td>
         </tr>
         <tr>
-            <td>Service</td>
-            <td>Service</td>
+            <td className=' text-white'>Service</td>
+            <td className=' text-white'>Service</td>
         </tr>
         <tr>
-            <td>Login</td>
-            <td>Login</td>
+            <td className='text-white'>Login</td>
+            <td className='text-white'>Login</td>
         </tr>
     </table>
-    <br />
-    <h1 className='font-bold text-lg'>Contact us</h1>
+    </div>
+    <div>   <h1 className=' text-white font-bold text-lg'>Contact us</h1>
 
-      <div className='mt-2'>
-       <div className='flex'>
-        <div><FaLocationDot className='h-10 w-5' /></div>
-        <p className='ml-2 mt-2'>Dhanbad, Jharkhand</p>
-        </div>
-       <div className='flex'>
-        <div><MdOutlineMail className='h-10 w-5'  /></div>
-        <p className='ml-2 mt-2'>harsh@gmail.com</p>
-        </div>
-       <div className='flex'>
-        <div><FaPhoneAlt className='h-10 w-5'/></div>
-        <p className='ml-2 mt-2'>+91 1234567890</p>
-        </div>
-      </div>
+<div className=' text-white mt-2'>
+ <div className=' text-white flex'>
+  <div><FaLocationDot className=' text-white h-10 w-5' /></div>
+  <p className=' text-white ml-2 mt-2'>Dhanbad, Jharkhand</p>
+  </div>
+ <div className=' text-white flex'>
+  <div><MdOutlineMail className=' text-white h-10 w-5'  /></div>
+  <p className=' text-white ml-2 mt-2'>harsh@gmail.com</p>
+  </div>
+ <div className=' text-white flex'>
+  <div><FaPhoneAlt className=' text-white h-10 w-5'/></div>
+  <p className=' text-white ml-2 mt-2'>+91 1234567890</p>
+  </div>
+</div></div>
+  
    </div>
    </>
   )

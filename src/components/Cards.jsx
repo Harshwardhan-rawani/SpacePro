@@ -15,7 +15,7 @@ function Cards() {
     return (
         <>
             <div className="p-2 flex justify-around  xl:flex-row lg:flex-col flex-col sm:flex-col md:flex-col xl:space-x-5 cursor-pointer px-10 lg:mt-10">
-                <div data-aos="fade-up" data-aos-delay="0" className="bg-[#202871] p-6 rounded-lg shadow-lg mb-4 hover:bg-gray-800 xl:w-1/3 w-full">
+                <div data-aos="fade-up" data-aos-delay="0" className="bg-[#202871] p-6 rounded-lg shadow-lg mb-4 hover:bg-gray-900 xl:w-1/3 w-full">
                     <div className='flex relative'>
                         <div className='h-28'>
                         <svg
@@ -40,7 +40,7 @@ function Cards() {
                     <p className="text-center text-white">Used for astronomical observations , capturing stunning images of the universe</p>
                 </div>
               
-                <div data-aos="fade-up" data-aos-delay="200" className="bg-[#202871] p-6 rounded-lg shadow-lg mb-4 hover:bg-gray-800 xl:w-1/3 w-full">
+                <div data-aos="fade-up" data-aos-delay="200" className="bg-[#202871] p-6 rounded-lg shadow-lg mb-4 hover:bg-gray-900 xl:w-1/3 w-full">
                     <div className='flex relative'>
                         <div className='h-28'>
                         <svg
@@ -64,7 +64,7 @@ function Cards() {
                     <p className="text-center text-white">it's a habitable artificial satelite orbiting Earth and serves as a space environment reasearch laboratory</p>
                 </div>
               
-                <div data-aos="fade-up" data-aos-delay="400" className="bg-[#202871] p-6 rounded-lg shadow-lg mb-4 hover:bg-gray-800 xl:w-1/3 w-full">
+                <div data-aos="fade-up" data-aos-delay="400" className="bg-[#202871] p-6 rounded-lg shadow-lg mb-4 hover:bg-gray-900 xl:w-1/3 w-full">
                     <div className='flex relative'>
                         <div className='h-28'>
                         <svg
